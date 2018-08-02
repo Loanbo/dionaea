@@ -51,7 +51,7 @@ config.path=@DIONAEA_STATEDIR@/bistreams/%Y-%m-%d/
 name=emu
 config.limits.files=3
 #512 * 1024
-config.limits.filesize=524288
+config.limits.filesize=5242880
 config.limits.sockets=3
 config.limits.sustain=120
 config.limits.idle=30
