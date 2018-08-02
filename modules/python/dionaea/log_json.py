@@ -192,7 +192,7 @@ class LogJsonHandler(ihandler):
             "src_hostname": self._prepare_value(con.remote.hostname),
             "src_ip": con.remote.host,
             "src_port": con.remote.port,
-            "timestamp": datetime.utcnow().isoformat()
+            "timestamp": datetime.now().isoformat()
         }
         self.attacks[con] = data
 
